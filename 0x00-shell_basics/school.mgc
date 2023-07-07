@@ -1,2 +1,2 @@
 #!/bin/bash
-file -C -m school.magic school.mgc
+0   string  SCHOOL  School data file >0  leshort  0x5343  SCHOOL data file
