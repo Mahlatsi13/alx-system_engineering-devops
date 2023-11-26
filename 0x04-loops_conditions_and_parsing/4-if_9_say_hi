@@ -2,14 +2,14 @@
 # displays Best School 10 times.
 # display Best School followed by hi on the 9th iteration
 
-COUNTER=0
-while [ $COUNTER -lt 11 ]
+COUNT=0
+while [ $COUNT -lt 11 ]
 do
-    if [ $COUNTER = 9 ]
-    then
-        echo "Hi"
-    else
-        echo "Best School"
-    fi
-    let COUNTER+=1
+	if [ $COUNT -eq 9 ]
+	then
+		echo "Hi"
+	else
+		echo "Best School"
+	fi
+	COUNT=$(( COUNT + 1 ))
 done
